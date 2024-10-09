@@ -10,7 +10,7 @@ This is my Solidity Contract for Metacrafters
 - Token Abbreviation: JKT
 - Total Supply: The total supply is initially set to 0 but can be increased through minting.
 
-### Functionalities
+ Functionalities
 
 Minting Tokens 
 - The mint function allows tokens to be created and added to the balanced of the specified address
@@ -31,15 +31,15 @@ Burning Tokens
 
 ## Key Components
 
-###Public Variables
+Public Variables
 - tokenName
 - tokenAbbrev
 - totalSupply
 
-###Mappings
+Mappings
 - balances
 
-###Functions
+Functions
 
 - mint(): Creates new tokens and adds it to address.
 - burn(): Burns tokens from the address and decreases total supply. Also checks if balance is sufficient for burning.
